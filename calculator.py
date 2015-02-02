@@ -6,7 +6,7 @@ def addition(a, b):
 	return a + b
 
 def subtraction(a, b):
-	return b - a
+	return a - b
 
 def main():
 	# Parse the command line
