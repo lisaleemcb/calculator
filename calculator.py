@@ -5,6 +5,9 @@ import sys
 def addition(a, b):
 	return a + b
 
+def subtraction(a, b):
+	pass
+
 def main():
 	# Parse the command line
 	try:
@@ -16,6 +19,8 @@ def main():
 
 	if op == '+':
 		print addition(a, b)
+	elif op == '-':
+		print subtraction(a, b)
 	else:
 		print 'Unknown operator', op
 		return -1
