@@ -14,8 +14,11 @@ def main():
 		print 'Usage: calculator.py "A op B"'
 		return -1
 
-	print 'Unknown operator', op
-	return -1
+	if op == '+':
+		print addition(a, b)
+	else:
+		print 'Unknown operator', op
+		return -1
 
 if __name__ == "__main__":
 	main()
