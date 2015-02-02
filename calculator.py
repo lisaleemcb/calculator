@@ -19,6 +19,8 @@ def main():
 
 	if op == '+':
 		print addition(a, b)
+	elif op == '-':
+		print subtraction(a, b)
 	else:
 		print 'Unknown operator', op
 		return -1
