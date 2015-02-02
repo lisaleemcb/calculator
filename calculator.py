@@ -5,6 +5,9 @@ import sys
 def addition(a, b):
 	return a + b
 
+def subtraction(a, b):
+	pass
+
 def main():
 	# Parse the command line
 	try:
