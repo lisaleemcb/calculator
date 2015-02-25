@@ -24,7 +24,7 @@ def main():
 		print addition(a, b)
 	elif op == '-':
 		print subtraction(a, b)
-	if op == '/':
+	elif op == '/':
 		print division(a, b)
 
 	else:
