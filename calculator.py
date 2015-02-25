@@ -29,7 +29,7 @@ def main():
 		print subtraction(a, b)
 	elif op == '*':
 		print multiplication(a, b)
-	if op == '/':
+	elif op == '/':
 		print division(a, b)
 
 	else:
